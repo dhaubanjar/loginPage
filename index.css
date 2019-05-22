@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.windows{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 100vw;
+    /* z-index: 0; */
+    /* position: relative; */
+    
+}
+
+.part_1{
+    flex: 1;
+    background-color: #E94544;
+}
+
+.part_2{
+    flex: 1;
+    background-color: #FAFAFA;
+}
+
+
+.login-container{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    /* position:absolute; */
+    height:75%;
+    width:30%;
+    background: #FAFAFA; 
+    box-shadow: 0px 2px 7px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topbar{
+    flex:1;
+    background-color: #2B3862;
+    display: flex;
+    flex-direction: row;
+}
+
+.topbar_1{
+    flex: 1;
+}
+
+.topbar_2{
+    flex: 1;
+    background-color: #162345;
+}
+
+.content{
+    flex: 4;
+    padding: 40px 50px 30px 50px;
+}
+.btn-container{
+    /* width:100%; */
+    padding-top:10%;
+    padding-bottom:5%;
+}
+.btn-my{
+    width:100%;
+}
+
+#forget{
+    text-decoration: none;
+    color:red;
+    float: right;
+}
+
+.top_logo{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    top: 19%;
+    z-index: 1;
+}
+
+.top_logo img{
+    height: 80px;
+    width: 80px;
+}
+
+.plus_logo{
+    position: absolute;
+    display: flex;
+    flex-direction: row; 
+    z-index: 1;
+    top: 45%;
+    margin-left: 80%;
+}
+
+.plus_logo img{
+    height: 70px;
+    width: 70px;
+}
